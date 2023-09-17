@@ -2,10 +2,7 @@
 
 ## Installation
 
-- Clone the repository from GitHub:
-```bash
-  git clone https://github.com/Udit-UD/Arogya.git
-```
+- Clone the repository.
 
 - Change to the project directory:
 ```bash
