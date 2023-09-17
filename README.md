@@ -1,8 +1,24 @@
-# React + Vite
+# AlexaDev-CU
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Installation
 
-Currently, two official plugins are available:
+- Clone the repository from GitHub:
+```bash
+  git clone https://github.com/Udit-UD/Arogya.git
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Change to the project directory:
+```bash
+  cd AlexaDev-CU
+```
+
+- Run the run.sh file:
+```bash
+  ./run.sh
+```
+This script will automatically check if the required modules are installed. If not, it will install them and start the server and client.
+
+Make sure to give the script execute permissions using the following command:
+```bash
+  chmod +x run.sh
+```
