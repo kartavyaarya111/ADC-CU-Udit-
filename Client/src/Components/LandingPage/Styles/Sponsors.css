@@ -1,0 +1,36 @@
+.sponsors-container{
+    width: 100%;
+    height: 22vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(198 198 199 / 23%);
+    backdrop-filter: blur(5px);
+    margin-top: 5vh;
+}
+.sponsors-heading{
+    padding-top: 1em;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+.sponsors-flex{
+    width: 98%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    font-size: 3rem;
+}
+.icons{
+    transition: scale 0.2s ease-in-out;
+}
+.icons:hover{
+    scale: 1.15;
+}
