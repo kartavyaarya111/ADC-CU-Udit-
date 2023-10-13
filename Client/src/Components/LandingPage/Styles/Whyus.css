@@ -1,0 +1,138 @@
+.whyus-container{
+    width: 99%;
+    height: 70vh;
+    display: flex;
+    justify-content: end;
+    color: white;
+    position: relative;
+}
+
+.whyus-body{
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    flex-direction: column;
+    width: 70%;
+    height: 60vh;
+}
+
+.why-flare{
+    position: absolute;
+    width: 20%;
+    z-index: -1;
+    height: 10vh;
+    filter: blur(100px);
+    background-color: rgb(14, 230, 215);
+    right: 50%;
+}
+.whyus-content{
+    margin-top: 2%;
+    display: flex;
+    width: 80%;
+    height: 70vh;
+    position: relative;
+}
+
+.whyus-leftbox{
+    width: 60%;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin: 1%;
+    margin-right: 0%;
+    padding: 1em;
+}
+
+
+.internal-heading{
+    font-weight: 500;
+    font-size: 1.40rem;
+    
+}
+.back-icons{
+    position: absolute;
+    left: -15px;
+    bottom: -30px;
+    font-size: 20rem;
+    opacity: 0.7;
+    color: #829cb3;
+}
+
+.whyus-left-flare{
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    width: 20%;
+    z-index: -1;
+    height: 10vh;
+    filter: blur(100px);
+    background-color: rgb(14, 230, 215);
+    
+}
+.whyus-list{
+    padding: 1em;
+    list-style-type:disc;
+    font-size: 1.12rem;
+}
+.whyus-list>li{
+    padding: 0.35em;
+}
+
+.special-button{
+    width: 70%;
+    border: 0px;
+    border-radius: 10px;
+    display: block;
+    background-color: rgb(1 202 255 / 65%);
+    color: white;
+    font-weight: 600;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 0.5em;
+    padding: 0.75em;
+    font-size: 1.15rem;
+    transition: scale 0.2s ease-in-out;
+}
+
+.special-button:hover{
+    background-color: rgba(31, 188, 199, 0.86);
+}
+    
+.special-button:active{
+    scale: 0.9;
+}
+
+
+ 
+
+.whyus-rightbox{
+    padding: 1%;
+    padding-left: 0.0%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.rightcont{
+    height: 25vh;
+    width: 84%;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 1%;
+    padding: 0.5em;
+    margin-left: 0%;
+}
+.internal-heading-right{
+    font-weight: 600;
+    font-size: 2rem;
+    padding-left: 0.25em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.right-desc{
+    padding: 0.25em;
+    text-align: left;
+    padding-left: 0.5em;
+    font-size: 1.19rem;
+    margin-top: 1vh;
+}

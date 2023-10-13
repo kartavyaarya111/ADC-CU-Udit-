@@ -1,0 +1,44 @@
+
+
+.gallery-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 3vh;
+}
+.gallery-heading-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins';
+    padding: 1em 0em;
+}
+.carousel{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+.gallery-heading{
+    color: #01caff;
+}
+
+.subheading{
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+.carousel.carousel-slider .control-arrow.control-next {
+    right: 10px;
+}
+
+.carousel.carousel-slider .control-arrow.control-prev {
+    left: 10px;
+}
+
+
+.carousel .slide .legend{
+    background: #41a7d299;
+}
+
